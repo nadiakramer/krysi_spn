@@ -32,8 +32,8 @@ class SPNTest {
 
 
         //then
-        assertEquals(spn.sbox(actual).length, 16);
-        assertArrayEquals(spn.sbox(actual), expected);
+        assertEquals(spn.bitpermutation(actual).length, 16);
+        assertArrayEquals(spn.bitpermutation(actual), expected);
     }
 
 }
